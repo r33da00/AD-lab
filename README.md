@@ -32,11 +32,11 @@ All virtual machines must be configured on an **isolated network** (Host-Only or
 
 Create the following virtual machines with recommended specifications:
 
-| **Role** | **OS** | **RAM** | **vCPU** | **Disk** |
-|----------|--------|---------|----------|----------|
-| Domain Controller | Windows Server 2019/2022 | 4GB | 2 | 60GB |
-| Client Workstation | Windows 10/11 Enterprise | 4GB | 2 | 60GB |
-| Attacker Machine | Kali Linux (optional) | 4GB | 2 | 40GB |
+| **Role** | **OS** | **RAM** | **vCPU** |
+|----------|--------|---------|----------|
+| Domain Controller | Windows Server 2019/2022 | 4GB | 2 |
+| Client Workstation | Windows 10/11 Enterprise | 4GB | 2 |
+| Attacker Machine | Kali Linux (optional) | 4GB | 2 |
 
 ### Step 2: Install Active Directory Domain Services
 
