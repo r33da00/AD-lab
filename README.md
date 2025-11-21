@@ -53,10 +53,10 @@ Import-Module ADDSDeployment
 Install-ADDSForest `
     -CreateDnsDelegation:$false `
     -DatabasePath "C:\Windows\NTDS" `
-    -DomainMode "WinThreshold" `
-    -DomainName "cs.org" `
-    -DomainNetbiosName "CS" `
-    -ForestMode "WinThreshold" `
+    -DomainMode "7" `
+    -DomainName "change.me" `
+    -DomainNetbiosName "change" `
+    -ForestMode "7" `
     -InstallDns:$true `
     -LogPath "C:\Windows\NTDS" `
     -SysvolPath "C:\Windows\SYSVOL" `
